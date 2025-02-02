@@ -81,6 +81,10 @@ h2 {
     background: linear-gradient(to right, #009688, #00796b);
 }
 
+.reg{
+    text-decoration: none;
+}
+
 /* Already have an account link */
 p {
     margin-top: 10px;
