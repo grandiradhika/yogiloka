@@ -30,7 +30,7 @@ section {
     padding: 40px 20px;
 }
 
-.intro, .benefits, .guide {
+.intro, .benefits, .guide , .types{
     background: white;
     margin: 20px auto;
     max-width: 800px;
@@ -42,7 +42,7 @@ section {
     padding: 20px;
 }
 
-h2 {
+h1,h2,h3 {
     font-size: 2em;
     margin-bottom: 20px;
     color: #4d79ff;

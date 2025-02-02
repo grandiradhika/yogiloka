@@ -1,0 +1,62 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Full Page Styling */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('home.webp') no-repeat center center/cover;
+    text-align: center;
+    color: white;
+}
+
+/* Container for Content */
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Heading Animation */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Register Button */
+.register-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    color: white;
+    background: #ff8800;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    animation: float 2s infinite alternate ease-in-out;
+}
+
+.register-btn:hover {
+    background: #e67700;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Floating Button Animation */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-5px); }
+}
